@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id = "promien" type="number" placeholder="promien" >
+    <input type="number"  id ="srednica " placeholder="srednica okregu">
+    <button onclick="getCircleLenght()">dlugosc okregu</button>
+</body>
+
+<script defer>
+    
+    const getCircleLenght = () =>{
+        let r = document.querySelector("#promien").value;
+        console.log(2 * Math.PI * parseFloat(r));
+        document.querySelector("#promien").value = 0;
+    } 
+
+
+ const getCircOfCircle = () =>{
+    let d = document.querySelector("#promien").value;
+    
+ }
+
+</script>
+</html>`
